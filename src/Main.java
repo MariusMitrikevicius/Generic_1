@@ -1,15 +1,15 @@
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        Medis azuolas = new Azuolas();
-        Medis berzas = new Berzas();
-        Medis egle = new Egle();
-        Medis pusis = new Pusis();
-        Medis kadagys = new Kadagys();
+        // Sukuriame įvairių medžių sąrašus
+        List<Medis> medziai = List.of(new Azuolas(), new Berzas(), new Egle(), new Kadagys(), new Pusis());
+        List<Spygliuotis> spygliuociai = List.of(new Egle(), new Kadagys(), new Pusis());
+        List<Berzas> berzai = List.of(new Berzas(), new Berzas());
 
-        azuolas.turi(); // Azuolas turi lapus.
-        berzas.turi();   // Berzas turi lapus.
-        egle.turi();     // Egle turi spygliais.
-        pusis.turi();    // Pusis turi spygliais.
-        kadagys.turi();  // Kadagys turi spygliais.
+        // Iškviečiame metodus su skirtingais sąrašais
+        Miskas.ivairusMiskas(medziai);        // Priima bet kokį medžių sąrašą
+        Miskas.spygliuociuMiskas(spygliuociai); // Priima tik spygliuočius
+        Miskas.berzuMiskas(berzai);           // Priima tik beržų sąrašą
     }
 }
