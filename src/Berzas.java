@@ -1,3 +1,3 @@
 class Berzas extends Lapuotis {
-    // Berzas paveldi metodą turi() iš Lapuotis klasės
+    // Naudojame Lapuotis "turi()" metodą be papildomų pakeitimų
 }
