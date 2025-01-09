@@ -1,0 +1,19 @@
+Pora klasė:
+Turiu dvi dėžutes, į kurias dedi skirtingus dalykus. Vienoje dėžutėje gali būti rakto reikšmė (pavyzdžiui, žodis, pvz., "pavadinimas"), o kitoje dėžutėje — reikšmės reikšmė
+(pvz., skaicius arba kita informacija). Kiekvieną kartą, kai nori ką nors įdėti į dėžutes, tu turi pasakyti, kokio tipo daiktus nori dėti. Taip sužinome, kokie dalykai bus šiose dėžutėse.
+
+2. Mapas klasė
+Mapas yra tarsi didžiulė spinta, kurioje laikome daug įvairių dėžučių (porų).
+Kiekviena dėžutė turi raktą ir reikšmę, ir mes galime greitai surasti norimą dėžutę pagal raktą.
+
+3. DnsServer klasė
+DnsServer yra kaip kompiuterio adresas. Įsivaizduok, kad tai yra vieta, kur kompiuteriai gali rasti kitus kompiuterius internete.
+Ip1 ir ip2 yra IP adresai, kuriuos kompiuteriai naudoja, kad susisiektų tarpusavyje.
+
+4. DnsProvider enum
+DnsProvider yra kaip sąrašas, kuriame yra keli pasirinkimai, kas gali būti DNS paslaugų teikėjai. Pavyzdžiui, Google, OpenDNS ir Cloudflare.
+
+5. Main klasė (kas tai yra?)
+Ši klasė yra vieta, kur mes pradėsime viską veikti. Sukuriame Mapas objektus, į kuriuos dedame poras (rakto ir reikšmės), ir bandome gauti reikšmes pagal raktus.
+
+

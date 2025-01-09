@@ -2,6 +2,7 @@
 abstract class Spygliuotis implements Medis {
     @Override
     public void turi() {
-        System.out.println(this.getClass().getSimpleName() + " turi spygliais.");
+        // Įgyvendiname "turi" metodą, kuris nurodo, kad spygliuočiai turi spyglius
+        System.out.println(this.getClass().getSimpleName() + " turi spyglius.");
     }
 }

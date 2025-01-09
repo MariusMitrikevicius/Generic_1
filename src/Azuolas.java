@@ -1,4 +1,4 @@
 // Konkretūs lapuočiai
 class Azuolas extends Lapuotis {
-    // Azuolas paveldi metodą turi() iš Lapuotis klasės
+    // Naudojame Lapuotis "turi()" metodą be papildomų pakeitimų
 }

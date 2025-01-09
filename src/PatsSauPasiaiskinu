@@ -1,0 +1,19 @@
+Medis --> bazinis interfeisas -- > visi medžiai turi turėti metodą turi().
+
+Lapuotis ,Spygliuotis --> abstrakčios klasės, paveldi Medis interfeisą.
+
+Lapuočiai spausdina, kad turi lapus.
+Spygliuočiai spausdina, kad turi spyglius.
+this.getClass().getSimpleName() gauna klasės pavadinimą (Berzas, Egle)
+
+ivairusMiskas:
+Priima sąrašą, kuriame yra Medis arba jo paveldėtojai.
+Iteruoja per sąrašą ir iškviečia turi() metodą kiekvienam medžiui.
+
+spygliuociuMiskas:
+Priima sąrašą su bet kuo paveldinčiu iš Spygliuotis.
+Naudojamas ? extends Spygliuotis, kad metodas būtų lankstesnis.
+
+berzuMiskas:
+Priima sąrašą su bet kuo paveldinčiu iš Berzas.
+Naudojamas ? extends Berzas, kad būtų galima perduoti beržų sąrašus.
